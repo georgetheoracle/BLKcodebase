@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="https://kit.fontawesome.com/0959dc7543.js" crossorigin="anonymous"></script>
+    <title>frontend</title>
+</head>
+<body>
+    <!-- login-modal -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeButton">&times;</span>
+                <h2>Login</h2>
+            <form >
+            <button type="submit" class="twitter-btn">Sign In With <i class="fa-brands fa-square-x-twitter"></i></button>
+            </form>
+        </div>
+    </div>
+        <nav class="nav-container">
+            <ul class="container">
+                <li id="nav-doc" class="nav-link">
+                    <a href="#documentation">cashswap</a> 
+                </li>
+                <li id="nav-dash" class="nav-link">
+                    <a href="./dashboard/dashboard.html"> cashbot</a>
+                </li>
+                <li id="nav-login" class="nav-link">
+                    <button id="loginButton" class="login"> login </button>
+                </li>
+            </ul>
+        <i class="fa-solid fa-bars"></i>
+        </nav>
+        <!-- hamburger-menu -->
+    <section id="home">
+        <div>
+        <a href="index.html" class="logo">$CASH-INN</a>
+        </div>
+        <div class="flex">
+        <div class="homepage-div">
+        <h1>"Beyond Boundaries: Welcome to the CASH-INN PROJECT– A Pioneering Crypto Project Redefining the Landscape of Digital
+        Assets." </h1>
+        <h4>Get Rewarded Tokens for interacting socially with friends and influencers on X/twitter.</h4>
+        </div>
+        <div class="homepage-button">
+            <a href="#" class="button button1">documentation <i class="fa-sharp fa-solid fa-cart-plus"></i></a>
+
+            <a href="#" class="button button2">BUY INSTANTLY <i class="fa-solid fa-money-bill-trend-up"></i></a>
+        </div>
+        </div>
+        </section> 
+    <section id="about">
+            <h1 class="epoch1">Epoch 1:</h1>
+            
+            <div id="countdown"></div>
+            </div>
+            <div class="vertical-line"> </div>
+            <div class="circle">
+            </div>
+            <div class="quadrant q1">
+            </div>
+            <div class="quadrant q2">
+            </div>
+            <div class="quadrant q3">
+            </div>
+            <div class="quadrant q4">
+            </div>
+            <div class="coming-soon">Coming Soon!!!</div>
+            <h1 class="getstarted">get started</h1>
+            <p class="PayDay">
+                Cash-inn Airdrop distribution works off of 1 week epochs that started on January 1st, 2024 at 8:00AM EST. Points earned during an epoch can be claimed for $CASH tokens during the following epoch.
+            </p>
+            <div class="container-2">
+                <div class="card"><i class="fa-brands fa-twitter"></i><h1>earn points</h1><p>Send tweets mentioning us (see above) during the epoch to earn points and compete with friends</p></div>
+                <div class="card"><i class="fa-solid fa-calculator"></i><h1>points calculation</h1><p>We determine your percentage of the epoch's token allotment using points and account status</p></div>
+                <div class="card"><i class="fa-solid fa-piggy-bank"></i><h1>claim tokens</h1><p>Claim your percentage of the previous epoch tokens from the dashboard in the next epoch</p></div>
+            </div>
+    </section>
+    <section id="earn">
+        <h1 class="chart-heading">tokenomics</h1>
+        <h4 class="supply">30 BILLION CASH WILL BE MINTED IN TOTAL. THEY WILL BE DISTRIBUTED INTO 7 MAIN POOLS,
+        EACH WITH DIFFERENT UNLOCKING SCHEDULES.</h4>
+        <div class="programming-stats">
+            <div class="chart-container">
+                <canvas class="my-chart"></canvas>
+            </div>
+
+            <div class="details">
+                <ul>
+                    <li>Initial Token Sale<span class="span span1">30% released upon token sale completion, with the remaining 70% vested over 12 months.</span></li>
+                    <li>Airdrop <span class="span span2">20% released immediately after the vesting period, with the rest released linearly over 24 months.</span></li>
+                    <li>Ecosystem Development<span class="span span3">Released according to project milestones and community needs, subject to transparent governance.</span></li>
+                    <li>Team and advisors <span class="span span4">Released according to project milestones and community needs, subject to transparent governance.</span></li>
+                    <li>Reserve Fund <span class="span span5">Released according to project milestones and community needs, subject to transparent governance.</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Cash-Inn Project. All rights reserved.</p>
+        <div class="socials">
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-discord" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+        </div>
+        </div>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
