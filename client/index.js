@@ -46,7 +46,7 @@ navLink.forEach(x => x.addEventListener('click', ()=>{
     navMenu.classList.remove('active')
 }))
 // Set the date we're counting down to
-const countDownDate = new Date("feb 28, 2024 00:00:00").getTime();
+const countDownDate = new Date("march 28, 2024 00:00:00").getTime();
 
 // Update the countdown every 1 second
 
